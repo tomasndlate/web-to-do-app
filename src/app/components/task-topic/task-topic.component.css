@@ -1,0 +1,38 @@
+.task-topic {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 15px;
+  align-items: center;
+  background-color: rgb(230 230 230);
+  border-radius: 6px;
+}
+
+.task-topic-checkbox,
+.task-topic-arrow {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-topic-checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.task-topic-arrow i {
+  font-size: 16px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.task-topic-no-title {
+  font-style: italic;
+  color: var(--color-text-secondary);
+}

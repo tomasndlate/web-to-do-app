@@ -1,0 +1,19 @@
+
+<div class="task-topic">
+
+  <div class="task-topic-checkbox">
+    <input (change)="updateCheckedValue()" type="checkbox" #checkbox>
+  </div>
+
+  <div class="task-topic-content">
+    <p *ngIf="title.length > 0; else noTitle">{{title}}</p>
+    <ng-template #noTitle>
+      <p class="task-topic-no-title">No title defined</p>
+    </ng-template>
+  </div>
+
+  <a [routerLink]="['/tasks', id]" class="task-topic-arrow">
+    <i class="bi bi-chevron-right"></i>
+  </a>
+
+</div>

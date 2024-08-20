@@ -1,0 +1,24 @@
+<nav [ngClass]="[navbarStateClass, 'full-navbar']" #navbar>
+
+  <section class="nav-expand-collapse">
+    <span class="nav-expand-collapse-title">Menu</span>
+    <i *ngIf="!isNavbarCollapsed" (click)="switchNavbarState()" class="bi bi-arrow-bar-left"></i>
+    <i *ngIf="isNavbarCollapsed" (click)="switchNavbarState()" class="bi bi-list"></i>
+  </section>
+
+  <section class="nav-routing-section">
+    <p class="nav-routing-section-title">Tasks</p>
+    <a routerLink="/tasks" routerLinkActive="nav-routing-active">
+      <i class="bi bi-list-check"></i>
+      <p>Tasks</p>
+    </a>
+  </section>
+
+</nav>
+
+<nav class="responsive-navbar">
+  <a routerLink="/tasks" routerLinkActive="nav-routing-active">
+    <i class="bi bi-list-check"></i>
+    <p>Tasks</p>
+  </a>
+</nav>

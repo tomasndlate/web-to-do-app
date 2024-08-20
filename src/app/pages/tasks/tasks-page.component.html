@@ -1,0 +1,30 @@
+<div class="tasks-page">
+
+  <div class="tasks-list">
+    <h1>Tasks</h1>
+    <div class="new-task-input">
+      <!-- FORM TO ADD TITLE AND CREATE TASK BUTTON  -->
+      <i (click)="addTask()" class="bi bi-plus-square-fill"></i>
+      <!-- <button (click)="addTask()">Add New Task</button> -->
+      <input (keydown.enter)="addTask_ByEnter()" [(ngModel)]="newTaskTitle" type="text" placeholder="New task title" #newTaskInput>
+    </div>
+
+    <!-- TASKS LIST -->
+    <div *ngFor="let task of tasksList; let i = index">
+      <!-- DATE DIVISOR -->
+      <ng-container *ngIf="!isEqualDateAsPrevious(i)">
+        <p *ngIf="task.dueDate === null; else dateLabel" class="task-list-dateDivisor"> To be defined </p>
+        <ng-template #dateLabel>
+          <p class="task-list-dateDivisor">{{ getMonthOfTask(i) }}</p>
+        </ng-template>
+      </ng-container>
+      <!-- TASK TOPIC -->
+      <app-task-topic [id]="task.id" [title]="task.title" [isChecked]="task.isChecked" ></app-task-topic>
+
+    </div>
+
+  </div>
+
+  <router-outlet></router-outlet>
+</div>
+

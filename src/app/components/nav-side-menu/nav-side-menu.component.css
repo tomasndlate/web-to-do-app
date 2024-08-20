@@ -1,0 +1,149 @@
+/* FULLSCREEN */
+:host {
+  /* For Safari */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  align-self: start;
+  height: calc(100vh - 20px);
+  z-index: 10;
+}
+
+.full-navbar {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 6px;
+}
+
+.nav-expanded {
+  width: 350px;
+}
+.nav-collapsed {
+  width: fit-content;
+  align-items: center;
+}
+
+.nav-collapsed > .nav-routing-section > a > p,
+.nav-collapsed > .nav-expand-collapse > span,
+.nav-collapsed .nav-routing-section-title {
+  display: none;
+}
+
+.nav-expand-collapse {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-expand-collapse-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+
+.nav-routing-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-routing-section-title {
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: 600;
+}
+
+
+.nav-routing-section a {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-size: var(--font-size-md);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.nav-collapsed > .nav-routing-section > a {
+  width: fit-content;
+}
+
+.nav-routing-active {
+  background-color: rgb(230, 230, 230);
+}
+
+.nav-routing-section a > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  /* background-color: palevioletred; */
+}
+
+/* RESPONSIVE NAVABAR */
+.responsive-navbar {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px rgba(232, 232, 232, 0.5);
+  z-index: 100;
+}
+
+.responsive-navbar a {
+  position: relative;
+  height: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
+
+.responsive-navbar a > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+}
+
+.responsive-navbar a > p {
+  font-size: var(--font-size-sm);
+}
+
+@media screen and (max-width: 1250px) {
+  .full-navbar {
+    display: none;
+  }
+
+  .responsive-navbar {
+    display: flex;
+  }
+
+  :host {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 100%;
+
+  }
+}

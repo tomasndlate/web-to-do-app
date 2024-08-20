@@ -1,0 +1,44 @@
+
+<div class="task-card">
+
+    <!-- DETAILS -->
+    <div class="task-card-details">
+      <div class="top-section-task">
+        <h2>Task:</h2>
+        <a routerLink="/tasks">
+          <i class="bi bi-x-lg"></i>
+        </a>
+      </div>
+
+      <div *ngIf="task" class="task-upper-details">
+        <input [(ngModel)]="inputTitle" type="text" placeholder="Title">
+        <input [(ngModel)]="inputDescription" type="text" placeholder="Description">
+      </div>
+
+      <div *ngIf="task" class="input-date">
+        <label for="task-dueDate">Due Date</label>
+        <input [(ngModel)]="inputDueDate" id="task-dueDate" type="date" class="custom-date-input">
+      </div>
+
+      <div *ngIf="!task" class="task-not-found">
+        <div class="task-not-found-message">
+          <i class="bi bi-clipboard-x"></i>
+          <p>Task not found</p>
+        </div>
+        <a routerLink="/tasks">Return to tasks</a>
+      </div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div *ngIf="task" class="task-card-update-buttons">
+      <button *ngIf="!isConfirmDelete" (click)="deleteTask()" class="task-delete-btn">Delete Task</button>
+      <button *ngIf="isConfirmDelete" (click)="confirmDeleteTask()" class="task-confirm-delete-btn">Click to Confirm Delete</button>
+
+      <button *ngIf="!isConfirmSave" class="task-save-btn" (click)="saveTask()">Save Changes</button>
+      <!-- <button *ngIf="isConfirmSave" class="task-confirm-save-btn">Changes Saved!</button> -->
+      <div *ngIf="isConfirmSave" class="task-confirm-save-check">
+        <i class="bi bi-check-lg"></i>
+      </div>
+    </div>
+
+</div>
