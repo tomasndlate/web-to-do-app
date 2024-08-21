@@ -10,7 +10,7 @@
     Create, manage, and organize their daily tasks efficiently!
     <br />
     <br />
-    <a href="https://tomasndlate.github.io/to-do-app" target="_blank"><strong>Explore ToDoApp Live »</strong></a>
+    <a href="https://tomasndlate.github.io/to-do-app"><strong>Explore ToDoApp Live »</strong></a>
     <br />
   </p>
 </div>
