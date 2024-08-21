@@ -40,6 +40,7 @@
 
 Welcome to the To-Do App, an intuitive and user-friendly application built using Angular. This app allows users to create, manage, and organize their daily tasks efficiently.
 
+[![Product Name Screen Shot](images/readme-app-demo.png)](https://example.com)
 
 ## Features
 
