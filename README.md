@@ -2,7 +2,7 @@
 
 Welcome to the To-Do App, an intuitive and user-friendly application built using Angular. This app allows users to create, manage, and organize their daily tasks efficiently.
 
-Visit [ToDoApp](https://tomasndlate.github.io/to-do-app)
+Visit [ToDoApp](https://tomasndlate.github.io/to-do-app) Live!
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/tomasndlate/todo-app.git
    ```
 
 2. Navigate to the project directory:
@@ -99,16 +99,13 @@ npm start
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the MIT License. See the [MIT License](LICENSE) file for more details.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the MIT License.
 
 ## Contact
 
 For any inquiries, suggestions, or feedback, feel free to reach out:
 
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-- **LinkedIn:** [tomasndlate](https://www.linkedin.com/in/tomasndlate/)
-- **GitHub:** [tomasndlate](https://github.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomasndlate/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https:/github.com/tomasndlate)
