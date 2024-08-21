@@ -1,20 +1,45 @@
-# To-Do-App
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/tomasndlate/to-do-app">
+    <img src="src/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
+
+  <h1 align="center">ToDoApp</h1>
+
+  <p align="center">
+    Create, manage, and organize their daily tasks efficiently!
+    <br />
+    <br />
+    <a href="https://tomasndlate.github.io/to-do-app"><strong>Explore ToDoApp Live »</strong></a>
+    <br />
+</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-to-do-app">About The To-Do-App</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#features">Features</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-the-app">Running the App</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About the To-Do-App
 
 Welcome to the To-Do App, an intuitive and user-friendly application built using Angular. This app allows users to create, manage, and organize their daily tasks efficiently.
 
-Visit [ToDoApp](https://tomasndlate.github.io/to-do-app)
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -53,7 +78,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/tomasndlate/todo-app.git
    ```
 
 2. Navigate to the project directory:
@@ -99,16 +124,13 @@ npm start
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the MIT License. See the [MIT License](LICENSE) file for more details.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the MIT License.
 
 ## Contact
 
 For any inquiries, suggestions, or feedback, feel free to reach out:
 
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-- **LinkedIn:** [tomasndlate](https://www.linkedin.com/in/tomasndlate/)
-- **GitHub:** [tomasndlate](https://github.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomasndlate/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https:/github.com/tomasndlate)
