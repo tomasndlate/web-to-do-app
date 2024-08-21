@@ -1,20 +1,45 @@
-# To-Do-App
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/tomasndlate/to-do-app">
+    <img src="src/favicon.ico" alt="Logo" width="80" height="80">
+  </a>
+
+  <h1 align="center">ToDoApp</h1>
+
+  <p align="center">
+    Create, manage, and organize their daily tasks efficiently!
+    <br />
+    <br />
+    <a href="https://tomasndlate.github.io/to-do-app"><strong>Explore ToDoApp Live »</strong></a>
+    <br />
+</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-to-do-app">About The To-Do-App</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#features">Features</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-the-app">Running the App</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About the To-Do-App
 
 Welcome to the To-Do App, an intuitive and user-friendly application built using Angular. This app allows users to create, manage, and organize their daily tasks efficiently.
 
-Visit [ToDoApp](https://tomasndlate.github.io/to-do-app) Live!
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
